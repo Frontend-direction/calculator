@@ -1,6 +1,6 @@
 const results = [];
 
-const digitsAndOperator = document.querySelectorAll('.digits-and-operators');
+const digitsAndOperator = document.querySelectorAll('.digits-and-operators button');
 digitsAndOperator.forEach(el =>el.addEventListener('click', pressDigitAndOperator));    
 
 function pressDigitAndOperator (ev) {
